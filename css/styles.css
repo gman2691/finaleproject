@@ -1,0 +1,72 @@
+html{
+  font-family:Courier;
+  background-color: orange;
+}
+
+header{
+  overflow: hidden;
+  background-color: yellow;
+}
+
+h1,h2{
+  color:red;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  width:50%;
+  height: 50%;
+}
+
+.intro{
+  float: left;
+}
+
+.navbar{
+  float: right;
+}
+
+.nava{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+
+.pikapika{
+  float: left;
+  width: 60%;
+  height: 60%;
+}
+
+
+.pikapika img{
+  width: 30%;
+}
+
+.peeka{
+  float: left;
+  width: 40%;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width:500px) {
+  body{
+    background-color: green;
+  }
+
+}
+
+@media screen and (max-width:720px) {
+  .peeka{
+    display: none;
+  }
+
+}
